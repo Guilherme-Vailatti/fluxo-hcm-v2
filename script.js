@@ -24,6 +24,7 @@ $('#icon-hcm').click(function (event) {
         $('.background-hcm').css('opacity', 1);
         $('.info-box-1').fadeIn();
         $('.info-box-2').fadeOut();
+        $('.info-box-3').fadeOut();
     }, 50); 
     return false;
 });
@@ -36,7 +37,16 @@ $('#icon-painel').click(function (event) {
         $('.background').css('opacity', 1);
         $('.info-box-2').fadeIn();
         $('.info-box-1').fadeOut();
+        $('.info-box-3').fadeOut();
     }, 50); 
+    return false;
+});
+
+$('#icon-xt').click(function (event) {
+    event.preventDefault();
+    $('.info-box-3').fadeIn();
+    $('.info-box-1').fadeOut();
+    $('.info-box-2').fadeOut();
     return false;
 });
 
@@ -45,6 +55,6 @@ $('.close-info-box').click(function (event) {
     $(this).parent().hide();
     return false;
 });
-});
 
+});
 
