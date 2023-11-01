@@ -138,6 +138,34 @@
     
     }
 
+    @media(max-width:491px) {
+    
+    
+        .holder {
+            transform: scale(0.35);
+            margin-left: 40px;
+        }
+        .legenda img {
+            margin-left: -90%;
+            margin-top: 90%;
+        }
+    
+    }
+
+    @media(max-width:391px) {
+    
+    
+        .holder {
+            transform: scale(0.30);
+            margin-left: 40px;
+        }
+        .legenda img {
+            margin-left: -90%;
+            margin-top: 90%;
+        }
+    
+    }
+
 
 
 body, html {
